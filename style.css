@@ -922,7 +922,7 @@ input {
 /* -------------------------------------------------------------------------- */
 
 .pokeball-anim-wrap {
-  /* transform: scale(0); */
+  transform: scale(0); /* initial state */
   margin-top: 19%;
   position: sticky;
   top: -145px;
