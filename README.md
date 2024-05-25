@@ -5,7 +5,7 @@ Kalos Pokedex
 
 ## Attributions/Inspirations:
 <ul>
-  [PokeAPI](https://github.com/PokeAPI/pokeapi)
+  <li>https://github.com/PokeAPI/pokeapi</li>
   <li>https://www.jayfreestone.com/writing/cutouts-css-masks</li>
   <li>https://github.com/Ade-mir/pokedex-tutorial</li>
 </ul>
