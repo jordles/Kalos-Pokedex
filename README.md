@@ -2,8 +2,7 @@ Kalos Pokedex
 ## Description
 <p>Created using vanilla html, css, and js. This is a pokedex based on the Kalos Region design. This assignment is for me to practice working with APIs.</p>
 
-Demo: <a href="https://jordles.github.io/Kalos-Pokedex/" target="_blank">Kalos Pokedex</a>
-
+Demo: [Kalos Pokedex](https://jordles.github.io/Kalos-Pokedex/ )
 ## Attributions/Inspirations:
 <ul>
   <li>https://github.com/PokeAPI/pokeapi</li>
