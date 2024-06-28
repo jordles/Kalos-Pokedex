@@ -37,15 +37,15 @@ input {
   top: 0;
 }
 
-#github {
-  width: 10%;
-  height: fit-content;
+#github, #github img {
+  width: 50px;
+  height: 50px;
   object-fit: contain;
   position: absolute;
   top: 0;
   right: 0;
   border-radius: 50%;
-  padding: 1%;
+  margin: 1%;
   z-index: 99;
 }
 

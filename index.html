@@ -7,7 +7,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="This is where your description goes" />
     <meta name="keywords" content="one, two, three" />
     <link
@@ -27,75 +27,86 @@
     <!-- external CSS link -->
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" defer src="script.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/gh/peterhry/CircleType@2.3.1/dist/circletype.min.js"></script> **curved text never used--> 
+    <!-- <script src="https://cdn.jsdelivr.net/gh/peterhry/CircleType@2.3.1/dist/circletype.min.js"></script> **curved text never used-->
   </head>
   <body>
     <h1 id="pokedex-title">Kalos Pokedex</h1>
-    <a href="https://github.com/jordles/Kalos-Pokedex" target="_blank"><img id="github"src="./images/github-mark.svg" alt="github"></a>
+    <a href="https://github.com/jordles/Kalos-Pokedex" target="_blank" id="github"
+      ><img  src="./images/github-mark.svg" alt="github"
+    /></a>
     <div>
-    <div tabindex="0" id="pokedex-start">
-      <div class="pokedex-start-effect expand"></div>
-      <div class="pokedex-start-effect expand2"></div>
-    </div>
-    <div id="pokedex-wrapper-top">
-      <section id="pokedex-top">
-        <div id="circle1-top" class="circle-border quarter-circle"></div>
-        <div id="circle2-top" class="circle-border quarter-circle"></div>
-        <div id="circle3-top" class="circle-border bigger-quarter-circle"></div>
-        <div id="circle4-top" class="circle-border bigger-quarter-circle"></div>
-        <div id="circle5-top" class="circle-border circle-border-large"></div>
-        <div id="circle6-top" class="circle-border">
-        </div>
-        <div id="circle7-top" class="circle-border"></div>
-        <div id="dark-red-line-left-top"></div>
-        <div id="dark-red-line-right-top"></div>
-        <div id="cam-circle-top"></div>
-        <div id="camera-top"></div>
+      <div tabindex="0" id="pokedex-start">
+        <div class="pokedex-start-effect expand"></div>
+        <div class="pokedex-start-effect expand2"></div>
+      </div>
+      <div id="pokedex-wrapper-top">
+        <section id="pokedex-top">
+          <div id="circle1-top" class="circle-border quarter-circle"></div>
+          <div id="circle2-top" class="circle-border quarter-circle"></div>
+          <div
+            id="circle3-top"
+            class="circle-border bigger-quarter-circle"
+          ></div>
+          <div
+            id="circle4-top"
+            class="circle-border bigger-quarter-circle"
+          ></div>
+          <div id="circle5-top" class="circle-border circle-border-large"></div>
+          <div id="circle6-top" class="circle-border"></div>
+          <div id="circle7-top" class="circle-border"></div>
+          <div id="dark-red-line-left-top"></div>
+          <div id="dark-red-line-right-top"></div>
+          <div id="cam-circle-top"></div>
+          <div id="camera-top"></div>
+        </section>
+        <div class="interface"></div>
+        <div id="white-line-left-top" class="white-line"></div>
+        <div id="white-line-right-top" class="white-line"></div>
+      </div>
+      <section id="pokemon-info">
+        <div></div>
       </section>
-      <div class="interface"></div>
-      <div id="white-line-left-top" class="white-line"></div>
-      <div id="white-line-right-top" class="white-line"></div>
-    </div>
-    <section id="pokemon-info">
-      <div></div>
-    </section>
-    <div id="pokedex-wrapper-bottom">
-      <section id="pokedex-bottom">
-        <div id="circle1-bottom" class="circle-border quarter-circle"></div>
-        <div id="circle2-bottom" class="circle-border quarter-circle"></div>
-        <div
-          id="circle3-bottom"
-          class="circle-border bigger-quarter-circle"
-        ></div>
-        <div
-          id="circle4-bottom"
-          class="circle-border bigger-quarter-circle"
-        ></div>
-        <div
-          id="circle5-bottom"
-          class="circle-border circle-border-large"
-        ></div>
-        <div id="circle6-bottom" class="circle-border"></div>
-        <div id="circle7-bottom" class="circle-border"></div>
-        <div id="dark-red-line-left-bottom"></div>
-        <div id="dark-red-line-right-bottom"></div>
-        <div id="cam-circle-bottom"></div>
-        <div id="camera-bottom"></div>
-      </section>
-      <div id="white-line-left-bottom" class="white-line"></div>
-      <div id="white-line-right-bottom" class="white-line"></div>
-    </div>
+      <div id="pokedex-wrapper-bottom">
+        <section id="pokedex-bottom">
+          <div id="circle1-bottom" class="circle-border quarter-circle"></div>
+          <div id="circle2-bottom" class="circle-border quarter-circle"></div>
+          <div
+            id="circle3-bottom"
+            class="circle-border bigger-quarter-circle"
+          ></div>
+          <div
+            id="circle4-bottom"
+            class="circle-border bigger-quarter-circle"
+          ></div>
+          <div
+            id="circle5-bottom"
+            class="circle-border circle-border-large"
+          ></div>
+          <div id="circle6-bottom" class="circle-border"></div>
+          <div id="circle7-bottom" class="circle-border"></div>
+          <div id="dark-red-line-left-bottom"></div>
+          <div id="dark-red-line-right-bottom"></div>
+          <div id="cam-circle-bottom"></div>
+          <div id="camera-bottom"></div>
+        </section>
+        <div id="white-line-left-bottom" class="white-line"></div>
+        <div id="white-line-right-bottom" class="white-line"></div>
+      </div>
     </div>
     <audio id="pokemon-shiny-sound">
       <source src="shiny.mp3" type="audio/mpeg" />
     </audio>
-    
+
     <footer>
       &copy; <span id="current-year"></span>
-      <a href="https://github.com/jordles" target="_blank"> Jordles</a> <br>
+      <a href="https://github.com/jordles" target="_blank"> Jordles</a> <br />
       <section>
         <span>Powered by </span>
-        <a href="https://github.com/PokeAPI/pokeapi" target="_blank"><img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi.svg?sanitize=true" alt="pokeapi logo"></a>
+        <a href="https://github.com/PokeAPI/pokeapi" target="_blank"
+          ><img
+            src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi.svg?sanitize=true"
+            alt="pokeapi logo"
+        /></a>
       </section>
     </footer>
   </body>
